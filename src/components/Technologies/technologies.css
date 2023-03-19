@@ -1,0 +1,128 @@
+.technologies-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.technologies-container {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10vh;
+}
+
+.technologies-img {
+    width: 90%;
+    height: 33vh;
+    background: linear-gradient(0deg, rgba(48, 44, 66, 0.79), rgba(48, 44, 66, 0.79));
+    border-radius: 150px 150px 150px 150px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.technologies-h1-first {
+    font-size: 5vh;
+}
+
+.technologies-h1 {
+    font-size: 5vh;
+    font-weight: lighter;
+}
+
+.arrow-container {
+    width: 4vw;
+    height: 8vh;
+    border-radius: 50%;
+    border: 10px solid black;
+    background: linear-gradient(267.61deg, #C0B7E8 -0.6%, #8176AF 98.31%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    margin-top: 33vh;
+}
+
+.technologies-logo-container {
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.ArrowLeft {
+    display: none;
+}
+
+.ArrowRight {
+    display: none;
+}
+
+@media screen and (max-width: 750px) {
+    .arrow-container {
+        display: none;
+    }
+
+    .technologies-logo {
+        display: none;
+    }
+
+    .technologies-logo-main {
+        display: flex;
+        align-items: center;
+    }
+
+    .technologies-logo-main > div {
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        background: linear-gradient(267.61deg, #C0B7E8 -0.6%, #8176AF 98.31%);
+    }
+
+    .ArrowLeft {
+        display: block;
+        margin-left: 10px;
+        margin-top: 8px;
+    }
+
+    .ArrowRight {
+        display: block;
+    }
+}
+
+/* @media screen and (max-width: 992px) {
+    .technologies-container {
+        width: 95%;
+        margin-top: 10vh;
+    }
+
+    .arrow-container {
+        width: 7vw;
+        height: 12vh;
+    }
+
+    .arrow-down {
+        margin-right: 2vw;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .arrow-container {
+        width: 10vw;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .arrow-container {
+        width: 14vw;
+    }
+}
+
+
+@media screen and (max-width: 480px) {
+    .arrow-container {
+        width: 16vw;
+    }
+} */

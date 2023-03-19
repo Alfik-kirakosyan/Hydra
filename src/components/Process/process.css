@@ -1,0 +1,130 @@
+.process-container {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.process-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.process-number {
+    width: 8.5vw;
+    height: 17vh;
+    background: linear-gradient(251.27deg, #C0B7E8 12.87%, #8176AF 89.33%);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 6vh;
+    border: 2.5vh solid rgba(14, 14, 14);;
+}
+
+.process-text {
+    display: flex;
+    align-items: flex-start;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: large;
+    line-height: 3.5vh;
+}
+
+.process-p {
+    width: 9.5vw;
+    margin-top: 0vh;
+    margin-left: 0.5vw;
+}
+
+.buttons {
+    display: none;
+}
+
+@media screen and (max-width: 750px) {
+    #proces-2 {
+        display: none;
+    }
+    #proces-3 {
+        display: none;
+    }
+    #proces-4 {
+        display: none;
+    }
+
+    .process-number {
+        width: 110px;
+    }
+
+    .process-card {
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+    } 
+
+    .buttons {
+        display: block;
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        background: linear-gradient(267.61deg, #C0B7E8 -0.6%, #8176AF 98.31%);
+    }
+
+    .ButtonLeft {
+        margin-left: 12px;
+        margin-top: 8px;
+    }
+}
+
+/* @media screen and (max-width: 992px) {
+    
+    .process-number {
+        width: 8.5vw;
+        height: 14vh;
+    }
+
+    .process-card h1 {
+        font-size: 4vh;
+    }
+
+    .process-text {
+        display: flex;
+        align-items: flex-start;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 700;
+        font-size: 2vh;
+        line-height: 3.5vh;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .process-number {
+        width: 12vw;
+        height: 14vh;
+    }
+
+    .process-p {
+        width: 14vw;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .process-number {
+        width: 15.5vw;
+        height: 14vh;
+    }
+
+    .process-p {
+        width: 16vw;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .process-number {
+        width: 18vw;
+        height: 14vh;
+    }
+
+    .process-p {
+        width: 19vw;
+    }
+} */

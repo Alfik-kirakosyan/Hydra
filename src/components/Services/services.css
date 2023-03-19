@@ -1,0 +1,134 @@
+.services-container-all {
+    display: flex;
+    justify-content: center;
+}
+
+.services-container {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+}
+
+.card-container {
+    width: 18vw;
+    height: 53vh;
+    background: radial-gradient(50% 50% at 50% 50%, #433D60 0%, #211E2E 100%);
+    border-radius: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.card-img {
+    width: 9vw;
+    border-radius: 50%;
+    border: 2vh solid rgba(14, 14, 14, 0.32);;
+}
+
+.card-text {
+    width: 15vw;
+}
+
+.arrows {
+    display: none;
+}
+
+
+@media screen and (max-width: 750px) {
+    #CardImg2 {
+        display: none;
+    }
+    #CardImg3 {
+        display: none;
+    }
+    #CardImg4 {
+        display: none;
+    }
+    
+    .services-container {
+        justify-content: center;
+    }
+
+    .card-container {
+        width: 250px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .card-style {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .arrows {
+        display: block;
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        background: linear-gradient(267.61deg, #C0B7E8 -0.6%, #8176AF 98.31%);
+    }
+
+    .ArrowLeft {
+        margin-left: 10px;
+        margin-top: 8px;
+    }
+}
+/* @media screen and (max-width: 992px) {
+    .services-container {
+        display: flex;
+        justify-content: space-between;
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .card-container {
+        width: 27vw;
+    }
+
+    .card-container img {
+        width: 12vw;
+        margin-bottom: 1vh;
+    }
+
+    .card-text {
+        width: 20vw;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .card-container {
+        width: 35vw;
+    }
+
+    .card-text {
+        width: 25vw;
+    }
+
+    .card-container img {
+        width: 15vw;
+        margin-bottom: 1vh;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .card-container {
+        width: 44vw;
+    }
+
+    .card-text {
+        width: 30vw;
+    }
+
+    .card-container img {
+        width: 20vw;
+        margin-bottom: 1vh;
+    }
+
+    .join-button {
+        width: 25vw;
+    }
+} */
