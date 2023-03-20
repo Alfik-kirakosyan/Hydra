@@ -1,15 +1,13 @@
 .headerContact-container-all {
     display: flex;
     justify-content: center;
-    /* margin-top: 2vh; */
     margin-top: 50px;
 }
 
 .headerContact-container {
     display: flex;
-    justify-content: center;
-    width: 90%;
-    /* height: 20vh; */
+    justify-content: space-evenly;
+    width: 100%;
     padding: 20px;
     background: radial-gradient(50% 2900.76% at 50% 53.89%, rgba(58, 52, 86, 0.95) 0%, #211e2e 100%)
         /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
@@ -18,18 +16,27 @@
 }
 
 .headerContact {
+    width: 90%;
     display: flex;
     align-items: center;
-    padding: 20px;
-    /* padding: 2vw; */
+    justify-content: center;
+}
+
+.headerContact > img {
+    padding: 2%;
 }
 
 .headerContact-call {
+    width: 70%;
     display: flex;
     align-items: center;
-    padding: 20px;
     border-left: 0.1px solid rgba(192, 183, 232, 0.33);
     border-right: 0.1px solid rgba(192, 183, 232, 0.33);
+    padding: 0% 1% 0% 1%;
+}
+
+.headerContact-call > img {
+    padding: 2%;
 }
 
 .headerContact-arrows {
@@ -67,13 +74,18 @@
         margin-top: 15px;
     }
 
-    .hero-h1 {
-        font-size: 55px;
-    }
 
     .headerContact {
         display: flex;
         justify-content: center;
+    }
+
+    .headerContact > div {
+        padding: 1%;
+    }
+
+    .headerContact > div > h2 {
+        display: none;
     }
 
     .headerContact-arrows {
@@ -88,101 +100,3 @@
     }
 }
 
-/* 
-@media screen and (max-width: 1200px)  {
-    .headerContact div h2 {
-        font-size: 4vh;
-    }
-
-    .headerContact-call div h2 {
-        font-size: 4vh;
-    }
-} */
-/* 
-@media screen and (max-width: 992px) {
-
-    .headerContact-container{
-        display: flex;
-        justify-content: center;
-        width: 90%;
-        height: 20vh;
-        background: radial-gradient(50% 2900.76% at 50% 53.89%, rgba(58, 52, 86, 0.95) 0%, #211E2E 100%) 
-        border-radius: 90px;
-    }
-
-    .headerContact div h2 {
-        font-size: 3vh;
-    }
-
-    .headerContact-call div h2 {
-        font-size: 3vh;
-    }
-
-    .headerContact-call {
-        width: 38vw;
-        display: flex;
-        align-items: center;
-        padding: 2vw;
-        border-left: 0.2vw solid rgba(192, 183, 232, 0.33);
-        border-right: 0.2vw solid rgba(192, 183, 232, 0.33);
-    }
-}
-
-@media screen and (max-width: 768px) {
-    .headerContact-container{
-        display: flex;
-        justify-content: center;
-        width: 80%;
-        height: 15vh;
-        background: radial-gradient(50% 2900.76% at 50% 53.89%, rgba(58, 52, 86, 0.95) 0%, #211E2E 100%) 
-        box-shadow: 0px 4px 4px rgba(192, 183, 232, 0.01);
-        border-radius: 90px;
-    }
-
-    .headerContact img {
-        width: 5vw;
-    }
-
-    .headerContact-call img {
-        width: 5vw;
-    }
-
-    .headerContact div {
-        height: 10vh;
-        width: 25vw;
-    }
-
-    .headerContact-call div {
-        height: 8vh;
-    }
-
-    .headerContact-call {
-        width: 35vw;
-    }
-}
-
-@media screen and (max-width: 480px) {
-    .headerContact {
-        width: 50vw;
-    }
-
-    .headerContact-call {
-        width: 50vw;
-    }
-
-    .headerContact div h2 {
-        font-size: 2vh;
-    }
-
-    .headerContact-call div h2 {
-        font-size: 2vh;
-    }
-
-    .headerContact div {
-        height: 8vh;
-    }
-
-    .headerContact-call div {
-        height: 8vh;
-    }
-} */

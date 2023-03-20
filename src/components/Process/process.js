@@ -11,7 +11,7 @@ const Process = () => (
             {
               PROCESS.map(({header, text, id}) => (
                 <div className="process-card" id={id} key={header}>
-                    <div className='buttons'>
+                    <div className='button-left'>
                         <img className='ButtonLeft' src={ButtonLeft} alt='ButtonLeft' />
                     </div>
                     <div>
@@ -21,7 +21,7 @@ const Process = () => (
                             <p className='process-p'>{text}</p>
                         </div>
                     </div>   
-                    <div className='buttons'>
+                    <div className='button-right'>
                         <img className='ButtonRight' src={ButtonRight} alt='ButtonRight' />
                     </div>
                 </div>

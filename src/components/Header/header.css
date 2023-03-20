@@ -1,8 +1,14 @@
 .header-container {
+    padding-left: 4%;
     display: flex;
     align-items: center;
     justify-content: space-around;
-    margin-top: 3vh;
+    margin: 0 auto;
+    margin-top: 3%;
+}
+
+.header-container > div {
+    margin: 0 auto;
 }
 
 .vector-container {
@@ -52,14 +58,22 @@
     
 }
 
+.button-container {
+    display: flex;
+    width: 35%;
+    align-items: center;
+}
+
 .nav-container {
     display: flex;
     align-items: center;
-    width: 65vh;
+    width: 65%;
 }
 
 .nav {
     width: 100%;
+    display: flex;
+    justify-content: flex-end;
 }
 
 .nav-li{
@@ -75,6 +89,7 @@
 
 .header-menu-close {
     display: flex;
+    width: 100%;
 }
 
 .menu {
@@ -86,6 +101,10 @@
     .vector-container{
         display: flex;
         align-items: flex-end;
+    }
+
+    .vector-container > img {
+        width: 40%;
     }
 
     .menu {
@@ -123,63 +142,3 @@
         margin-bottom: 10px;
     }
 }
-/* 
-@media screen and (max-width: 992px) {
-    .nav {
-        margin-left: 4vw;
-        width: 100%;
-    }
-
-    .button-container {
-        display: flex;
-    }
-}
-
-@media screen and (max-width: 768px) {
-    .header-container {
-        display: flex;
-        align-items: center;
-        justify-content: space-evenly;
-        margin-top: 3vh;
-    }
-    
-    .vector {
-        width: 10vw;
-    }
-
-    .frame {
-        height: 10vh;
-        margin-bottom: 2%;
-        margin-left: 2%;
-    }
-
-    .contact-button {
-        width: 15vw;
-        height: 8vh;
-    }
-
-    .join-button {
-        width: 15vw;
-        height: 8vh;
-    }
-
-}
-
-@media screen and (max-width: 576px) {
-    .contact-button {
-        width: 20vw;
-        height: 6vh;
-    }
-
-    .join-button {
-        width: 20vw;
-        height: 6vh;
-    }
-}
-
-@media screen and (max-width: 480px) {
-    .frame {
-        width: 15vw;
-        height: 5vh;
-    }
-} */

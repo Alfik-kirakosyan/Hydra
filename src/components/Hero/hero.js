@@ -21,7 +21,7 @@ const Hero = () => (
                 </p>
                 <div className='hero-button-div'>
                     <Link to='#how-build'>
-                        <button className="hero-button">BUILD YOUR WORLD</button>
+                        <button className="hero-Button">BUILD YOUR WORLD</button>
                     </Link>
                     <img className='shape' src={Shape} alt='shape-logo' /> 
                 </div>

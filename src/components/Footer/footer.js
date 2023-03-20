@@ -16,36 +16,36 @@ const Footer = () => (
     <footer className='footer-coontainer-all'>
         <div className='footer-container'>
             <div>
-                <img className='vector-logo-main' src={VectorLogo} alt='VectorLogo' /> 
+                <img className='vector-logo-main-footer' src={VectorLogo} alt='VectorLogo' /> 
             </div>
             <img className='vector-logo' src={Vector20} alt='Vector20' /> 
             <div className='footer-text'>
                 <Link className='footer-word' to='#about'>
-                    <h5>ABOUT</h5>
+                    <h6>ABOUT</h6>
                 </Link>
                 <Link className='footer-word' to='#services'>
-                    <h5>SERVICES</h5>
+                    <h6>SERVICES</h6>
                 </Link>
                 <Link className='footer-word' to='#technologies'>
-                    <h5>TECHNOLOGIES</h5>
+                    <h6>TECHNOLOGIES</h6>
                 </Link>
                 <Link className='footer-word' to='#how-to'>
-                    <h5>HOW TO</h5>
+                    <h6>HOW TO</h6>
                 </Link>
                 <Link className='footer-word' to='#join-hydra'>
-                    <h5>JOIN HYDRA</h5>
+                    <h6>JOIN HYDRA</h6>
                 </Link>
             </div>
             <img className='vector-logo' src={Vector20} alt='Vector20' /> 
             <div className='footer-text'>
-                <h5>F.A.Q</h5>
-                <h5>SITEMAP</h5>
-                <h5>CONDITIONS</h5>
-                <h5>LICENSES</h5>
+                <h6>F.A.Q</h6>
+                <h6>SITEMAP</h6>
+                <h6>CONDITIONS</h6>
+                <h6>LICENSES</h6>
             </div>
             <img className='vector-logo' src={Vector20} alt='Vector20' /> 
             <div className='footer-socialize'>
-                <h5>SOCIALIZE WITH HYDRA</h5>
+                <h6>SOCIALIZE WITH HYDRA</h6>
                 <div className='footer-socialize-logo'>
                     <a href='https://www.facebook.com/'>
                         <img className='vector-logo' src={Facebook} alt='facebook' /> 
@@ -66,7 +66,7 @@ const Footer = () => (
                         <img className='vector-logo' src={Pinterest} alt='pinterest' /> 
                     </a>
                 </div>
-                <button type="submit" className="hero-button">BUILD YOUR WORLD</button>
+                <button type="submit" className="hero-button-footer">BUILD YOUR WORLD</button>
             </div>
         </div>
         <img className='footer-line' src={Vector17} alt='Vector17' /> 

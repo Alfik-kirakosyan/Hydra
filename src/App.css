@@ -2,10 +2,14 @@ body {
   background-color: rgba(48, 44, 66, 1);
   color: rgba(255, 255, 255, 1);
   font-family: 'Montserrat', sans-serif;
-  font-size: 2vh;
-  /* line-height: 2vh; */
+  font-size: 90%;
   line-height: 100%;
   vertical-align: top;
+}
+
+.container {
+  width: 90%;
+  margin: 0 auto;
 }
 
 

@@ -15,20 +15,22 @@ import Footer from './components/Footer/footer';
 
 function App() {
   return (
-    <div>
-      <Header />
-      <Hero />
-      <HeaderContact />
-      <Introduction />
-      <About />
-      <Build />
-      <Services />
-      <Technologies />
-      <HowTo />
-      <Process />
-      <JoinHydra />
-      <Footer />
-    </div>
+    <>
+        <Header />
+      <div className='container'>
+        <Hero />
+        <HeaderContact />
+        <Introduction />
+        <About />
+        <Build />
+        <Services />
+        <Technologies />
+        <HowTo />
+        <Process />
+        <JoinHydra />
+        <Footer />
+      </div>
+    </>
   );
 }
 

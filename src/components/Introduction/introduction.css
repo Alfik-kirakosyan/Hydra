@@ -1,41 +1,40 @@
 .introduction-section {
+    width: 100%;
     display: flex;
     justify-content: center;
-    height: 35vh;
+    padding: 5% 0% 5% 0%;
 }
 
 .introduction-container {
     display: flex;
-    width: 83%;
     justify-content: space-between;
     align-items: center;
 }
 
 .introduction-h1 {
-    font-size: 6vh;
+    font-size: 30px;
 }
 
 .introduction-h2 {
-    font-size: 4vh;
+    font-size: 25px;
     font-weight: lighter;
 }
 
 .introduction-p {
+    width: 100%;
     font-weight: 500;
-    line-height: 3vh;
-    width: 40vw;
+    line-height: 15px;
 }
 
 .introduction-header-container {
     display: flex;
+    width: 100%;
 }
 
 .introduction-vector {
-    position: absolute;
     display: flex;
     align-items: center;
-    margin-top: 10vh;
-    margin-left: 18vw;
+    margin-top: 5%;
 }
 
 
@@ -60,62 +59,3 @@
         display: none;
     }
 }
-/* @media screen and (max-width: 992px) {
-    .introduction-container {
-        width: 92%;
-    }
-    
-    .introduction-vector {
-        position: absolute;
-        display: flex;
-        align-items: center;
-        margin-top: 8vh;
-        margin-left: 22vw;
-    }
-
-    .Vector-11 {
-        width: 12vw;
-    }
-    .Vector-11 {
-        width: 12vw;
-    }
-}
-
-@media screen and (max-width: 768px) {
-    .introduction-container {
-        width: 80%;
-    }
-
-    .Vector-11 {
-        width: 12vw;
-    }
-
-    .Vector-12 {
-        width: 6vw;
-    }
-
-    .introduction-vector {
-        margin-left: 30vw;
-    }
-
-    .introduction-p {
-        width: 50vw;
-    }
-}
-
-@media screen and (max-width: 576px) {
-    .introduction-p {
-        width: 70vw;
-    }
-
-    .introduction-vector {
-        margin-left: 33vw;
-    }
-}
-
-@media screen and (max-width: 480px) {
-
-    .introduction-vector {
-        margin-left: 40vw;
-    }
-} */

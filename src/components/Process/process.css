@@ -1,24 +1,29 @@
 .process-container {
+    width: 100%;
+    height: 100%;
     display: flex;
     justify-content: space-evenly;
+    padding: 5% 0 5% 0;
 }
 
 .process-card {
+    width: 15%;
+    height: 100%;
     display: flex;
     flex-direction: column;
-    align-items: center;
 }
 
+
 .process-number {
-    width: 8.5vw;
-    height: 17vh;
+    width: 100%;
+    height: 100%;
     background: linear-gradient(251.27deg, #C0B7E8 12.87%, #8176AF 89.33%);
     border-radius: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 6vh;
-    border: 2.5vh solid rgba(14, 14, 14);;
+    border: 15px solid rgba(14, 14, 14);
+    padding: 20% 0px 20% 0;
 }
 
 .process-text {
@@ -36,7 +41,11 @@
     margin-left: 0.5vw;
 }
 
-.buttons {
+.button-right {
+    display: none;
+}
+
+.button-left {
     display: none;
 }
 
@@ -52,79 +61,32 @@
     }
 
     .process-number {
-        width: 110px;
+        width: 100%;
+        padding: 15% 0px 15px 0px;
     }
 
     .process-card {
+        width: 60%;
         display: flex;
         align-items: center;
         flex-direction: row;
+        justify-content: space-around;
     } 
+    
 
-    .buttons {
+    .button-right {
+        padding: 2%;
         display: block;
-        width: 40px;
-        height: 40px;
         border-radius: 50%;
         background: linear-gradient(267.61deg, #C0B7E8 -0.6%, #8176AF 98.31%);
     }
 
-    .ButtonLeft {
-        margin-left: 12px;
-        margin-top: 8px;
+    .button-left {
+        width: 15%;
+        padding: 5% 11% 5% 6%;
+        display: block;
+        border-radius: 50%;
+        background: linear-gradient(267.61deg, #C0B7E8 -0.6%, #8176AF 98.31%);
     }
 }
 
-/* @media screen and (max-width: 992px) {
-    
-    .process-number {
-        width: 8.5vw;
-        height: 14vh;
-    }
-
-    .process-card h1 {
-        font-size: 4vh;
-    }
-
-    .process-text {
-        display: flex;
-        align-items: flex-start;
-        font-family: 'Montserrat', sans-serif;
-        font-weight: 700;
-        font-size: 2vh;
-        line-height: 3.5vh;
-    }
-}
-
-@media screen and (max-width: 768px) {
-    .process-number {
-        width: 12vw;
-        height: 14vh;
-    }
-
-    .process-p {
-        width: 14vw;
-    }
-}
-
-@media screen and (max-width: 576px) {
-    .process-number {
-        width: 15.5vw;
-        height: 14vh;
-    }
-
-    .process-p {
-        width: 16vw;
-    }
-}
-
-@media screen and (max-width: 480px) {
-    .process-number {
-        width: 18vw;
-        height: 14vh;
-    }
-
-    .process-p {
-        width: 19vw;
-    }
-} */

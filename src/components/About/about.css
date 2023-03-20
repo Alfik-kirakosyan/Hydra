@@ -5,14 +5,13 @@
 }
 
 .pixel {
-    width: 32vw;
-    height: 66vh;
+    width: 100%;
     border-radius: 240px 100px 240px 100px;
 }
 
 .about-text {
-    height: 55vh;
-    display: grid;
+    width: 70%;
+    padding-left: 5%;
 }
 
 .about-h1 {
@@ -30,6 +29,11 @@
     line-height: 3vh;
 }
 
+.about-text > div > button {
+    width: 30%;
+    padding: 2% 0% 2% 0%;
+}
+
 @media screen and (max-width: 750px) {
     .about-container {
         flex-direction: column;
@@ -43,34 +47,13 @@
         display: none;
     }
 
-    .pixel {
-        width: 60vw;
-        height: 70vh;
+    .about-p {
+        padding: 7% 0% 5% 0%;
     }
 
-    .hero-button {
-        width: 100%;
+    .about-text > div > button {
+        width: 90%;
+        padding: 5% 0% 5% 0%;
     }
 }
 
-/* 
-@media screen and (max-width: 992px) {
-    .pixel {
-        width: 32vw;
-        height: 56vh;
-        border-radius: 190px 100px 190px 100px;
-    }
-}
-
-@media screen and (max-width: 992px) {
-    .pixel {
-        width: 40vw;
-    }
-}
-
-@media screen and (max-width: 576px) {
-    .pixel {
-        width: 55vw;
-        border-radius: 190px 100px 190px 100px;
-    }
-} */

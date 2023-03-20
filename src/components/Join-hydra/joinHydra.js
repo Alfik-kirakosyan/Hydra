@@ -27,7 +27,7 @@ const JoinHydra = () => {
             <img className='vector-16' src={Vector16} alt='Vector16-logo' /> 
             <h1 className="join-text">Let's Build Your VR Experience</h1>
         </div>
-        <div>
+        <div className="join-form-container">
             <form 
                 onSubmit={handleSubmit}
                 className='join-form'
@@ -40,6 +40,7 @@ const JoinHydra = () => {
                         placeholder="First Name"
                         onChange={handleChange}
                     />
+                    <br/>
                     <input 
                         value={inputs.lastName || ""}
                         name='lastName'
@@ -56,7 +57,7 @@ const JoinHydra = () => {
                         placeholder="Email Adress"
                         onChange={handleChange}
                     />
-
+                    <br/>
                     <input 
                         value={inputs.phone || ""}
                         name='phone'
@@ -66,7 +67,7 @@ const JoinHydra = () => {
                     />
             
                 </div>
-                <div>
+                <div className="join-input-subject-container">
                     <input 
                         value={inputs.subject || ""}
                         name='subject'

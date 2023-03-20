@@ -15,11 +15,11 @@ const Technologies = () => (
             <div className='technologies-img' style={{ backgroundImage: `url(${TechnologiesImg})` }}>
                 <h2 className='technologies-h1-first'>TECHNOLOGIES & HARDWARE</h2>
                 <h2 className='technologies-h1'>USED BY HYDRA VR.</h2>
-                <div className='arrow-container'>
+            </div>
+            <div className='arrow-container'>
                     <div className='arrow-button-container'>
                         <img className='arrow-down' src={ArrowDown} alt='ArrowDown' /> 
                     </div>
-                </div>
             </div>
             <div className='technologies-logo-container'>
                 <div className='technologies-logo-main'>

@@ -16,7 +16,7 @@ const Services = () => (
                     <>
                     
                     <div className="card-container" id={alt}  key={alt}>
-                        <div className='arrows'>
+                        <div className='arrow-left'>
                             <img className='ArrowLeft' src={ArrowLeft} alt="ArrowLeft" />
                         </div>
                         <div className='card-style'>
@@ -25,9 +25,9 @@ const Services = () => (
                             <img className='card-line' src={Line} alt='card-line' />
                             <br/>
                             <p className='card-text'>{text}</p>
-                            <button className="join-button">TRY IT NOW</button>
+                            <button className="join-button-1">TRY IT NOW</button>
                         </div>
-                        <div className='arrows'>
+                        <div className='arrow-right'>
                             <img className='ArrowRight' src={ArrowRight} alt="ArrowRight" />
                         </div>
                     </div>
